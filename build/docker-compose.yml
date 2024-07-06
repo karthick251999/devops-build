@@ -1,7 +1,7 @@
 version: '3'
+
 services:
   app:
-    images: nginx
-    port:
+    image: nginx
+    ports:
       - "80:80"
-
