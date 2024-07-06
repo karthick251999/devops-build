@@ -1,0 +1,7 @@
+version: '3'
+srvice:
+  app:
+    images: nginx
+    port:
+      - "80:80"
+
